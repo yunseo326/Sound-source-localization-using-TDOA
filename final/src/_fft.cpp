@@ -1,6 +1,6 @@
 #include "../include/CalDegree.hpp"
 #include <fftw3.h>
-
+ 
 namespace CalDegree {
     void _fft(CVector &signal, bool inverse) {
         int N = signal.size();
