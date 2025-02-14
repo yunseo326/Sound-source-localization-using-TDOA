@@ -16,8 +16,8 @@ using namespace CalDegree;
 #define DEVICE_ID2 6
 #define DEVICE_ID3 7
 #define DEVICE_ID4 8
-// if you change FLASE to TRUE, you can see the graph. but it makes a little delay
-#define PLT FLASE
+// if you change FALSE to TRUE, you can see the graph. but it makes a little delay
+#define PLT FALSE
 
 float inputData1[FRAMES_PER_BUFFER];
 float inputData2[FRAMES_PER_BUFFER];
@@ -47,7 +47,6 @@ void captureAudio2() {
         std::cerr << "Pa_ReadStream error: " << Pa_GetErrorText(err) << std::endl;
     }
     std::this_thread::sleep_for(std::chrono::milliseconds(100));
-    // 읽은 데이터를 저장 (두 번째 버퍼에)
     std::copy(buffer, buffer + FRAMES_PER_BUFFER, inputData2);
     }
 
@@ -59,7 +58,6 @@ void captureAudio3() {
         std::cerr << "Pa_ReadStream error: " << Pa_GetErrorText(err) << std::endl;
     }
     std::this_thread::sleep_for(std::chrono::milliseconds(100));
-    // 읽은 데이터를 저장 (세 번째 버퍼에)
     std::copy(buffer, buffer + FRAMES_PER_BUFFER, inputData3);
     }
 
@@ -71,7 +69,6 @@ void captureAudio4() {
         std::cerr << "Pa_ReadStream error: " << Pa_GetErrorText(err) << std::endl;
     }
     std::this_thread::sleep_for(std::chrono::milliseconds(100));
-    // 읽은 데이터를 저장 (네 번째 버퍼에)
     std::copy(buffer, buffer + FRAMES_PER_BUFFER, inputData4);
     }
 
