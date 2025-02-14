@@ -1,7 +1,7 @@
 #include "../include/CalDegree.hpp"
 #include "../include/AudioInput.hpp"
 
-using namespace std;
+using namespace std; 
 using namespace CalDegree;
  
 namespace CalDegree {
