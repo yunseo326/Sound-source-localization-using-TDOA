@@ -3,7 +3,7 @@ project(CalDegree_Project)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
-
+ 
 # 소스 파일 목록
 set(SOURCES
     src/_calculate_8_angles.cpp
