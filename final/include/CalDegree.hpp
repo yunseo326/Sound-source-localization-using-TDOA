@@ -1,6 +1,6 @@
 #ifndef CALDEGREE_HPP
 #define CALDEGREE_HPP
-
+ 
 #include <iostream>
 #include <cmath>
 #include <vector>

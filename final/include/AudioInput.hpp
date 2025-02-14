@@ -1,7 +1,7 @@
 // include/AudioInput.hpp
 #ifndef AUDIOINPUT_HPP
 #define AUDIOINPUT_HPP
-
+ 
 #include <portaudio.h>
 #include <vector>
 #define SAMPLE_RATE 44100
