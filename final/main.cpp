@@ -239,7 +239,7 @@ int main(){
         if (PRINT) {
             plt::pause(0.01);  // 잠시 대기 (그래프 갱신을 위한 시간 조정)
         }
-        std::this_thread::sleep_for(std::chrono::milliseconds(50));
+        std::this_thread::sleep_for(std::chrono::milliseconds(10));
     }
     // 스트림 종료
     err = Pa_StopStream(stream1);
