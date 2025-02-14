@@ -6,13 +6,17 @@
 
 #### 2. execute the code (if you have error in cmake then change the CMakeLists.txt)
 ```cpp
+mkdir build
 cd build
 cmake ..
 make
 ./main
 ```
 
-
+### Project File List
+device_check.cpp  : check the index of mics
+Test_Degree.cpp   : test the process example except audio 
+main.cpp          : main code
 
 ### Execution Flow
 ```cpp
