@@ -1,4 +1,3 @@
-// src/main.cpp
 #include "include/AudioInput.hpp"
 #include <portaudio.h>
 #include <iostream>

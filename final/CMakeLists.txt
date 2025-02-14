@@ -12,7 +12,6 @@ set(SOURCES
     src/_gcc_phat.cpp
     src/_select_final_direction.cpp
     src/_process_audio.cpp
-    # src/Audio.cpp
 )
 
 set(PORTAUDIO_INCLUDE_DIR /usr/include)

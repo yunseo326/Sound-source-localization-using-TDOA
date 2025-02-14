@@ -8,16 +8,14 @@ namespace CalDegree {
     AudioResult getAudioAngle(const vector<double> &a, const vector<double> &b, const vector<double> &c, const vector<double> &d) {
     
         AudioResult cal_result;
-        double SAMPLEs_RATE= 35000;
         double frame1 = _gcc_phat(a, b);
         double frame2 = _gcc_phat(b, c);
         double frame3 = _gcc_phat(c, d);
         double frame4 = _gcc_phat(d, a);
-        cout <<"frame: "<< frame1 << " " << frame2 << " " << frame3 << " " << frame4 << endl;
      
-        double dist_diff_1 = frame1 / SAMPLE_RATE * SPEED_SOUND /  DISTANCE_MIC;
+        double dist_diff_1 = frame1 / SAMPLE_RATE * SPEED_SOUND / DISTANCE_MIC;
         double dist_diff_2 = frame2 / SAMPLE_RATE * SPEED_SOUND / DISTANCE_MIC;
-        double dist_diff_3 = frame3 / SAMPLE_RATE * SPEED_SOUND / DISTANCE_MIC ;
+        double dist_diff_3 = frame3 / SAMPLE_RATE * SPEED_SOUND / DISTANCE_MIC;
         double dist_diff_4 = frame4 / SAMPLE_RATE * SPEED_SOUND / DISTANCE_MIC;
         if (dist_diff_1 < -1) dist_diff_1 = -1;
         if (dist_diff_2 < -1) dist_diff_2 = -1;

@@ -15,7 +15,12 @@ namespace CalDegree {
         
         switch (direction) {
             case 0:
-                   cout << "direction error not calculate" << endl;
+            cout << "direction error not calculate" << endl;
+            result.angle_1 = 0;
+            result.angle_2 = 0;
+            result.angle_3 = 0;
+            result.angle_4 = 0;
+                   break;
             case 1:
             result.angle_1 = 90-alpha; 
             result.angle_2 = beta;

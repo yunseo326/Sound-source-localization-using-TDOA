@@ -27,7 +27,6 @@ namespace CalDegree {
         }
         return 0;
     }
-        // Default return value to prevent control from reaching end of non-void function
 }
     
 
