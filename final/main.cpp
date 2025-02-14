@@ -10,7 +10,7 @@
 using namespace CalDegree;
 #define SAMPLE_RATE 44100
 #define FRAMES_PER_BUFFER 44100*2
-// 각도를 계산할때 
+// 각도를 계산하는 소리의 크기 기준점
 #define THRESHOLD 0.3
 #define DEVICE_ID1 5
 #define DEVICE_ID2 6
