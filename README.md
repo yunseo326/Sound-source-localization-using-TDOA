@@ -24,7 +24,7 @@ Test_Degree.cpp   : test the process example except audio
 main.cpp          : main code
 ```
 
-### Execution Flow
+### Execution Flow of main code
 ```cpp
 main  
 ↓  
