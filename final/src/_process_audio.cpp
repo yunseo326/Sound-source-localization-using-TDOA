@@ -3,7 +3,7 @@
 
 using namespace std;
 using namespace CalDegree;
-
+ 
 namespace CalDegree {
     AudioResult getAudioAngle(const vector<double> &a, const vector<double> &b, const vector<double> &c, const vector<double> &d) {
     
