@@ -14,9 +14,11 @@ make
 ```
 
 ### Project File List
+```cpp
 device_check.cpp  : check the index of mics
 Test_Degree.cpp   : test the process example except audio 
 main.cpp          : main code
+```
 
 ### Execution Flow
 ```cpp
