@@ -36,7 +36,7 @@ select_final_direction
 
 ### Module Descriptions
 ```cpp
-final/src/_process_audio.cpp          : 
+final/src/_process_audio.cpp          : contain the core computation logic used in the program.  
 final/src/_gcc_phat.cpp               : calculate the TDOA 
 final/src/_fft.cpp                    : calculate the TDOA 
 final/src/_categorize_values.cpp      : calculate the quadrant using TDOA
