@@ -1,4 +1,4 @@
-// 4분면 정하기
+// 4분면 정하기 
 #include <iostream>
 namespace CalDegree {
     int _categorize_values(double value, double value2, double value3, double value4) {
