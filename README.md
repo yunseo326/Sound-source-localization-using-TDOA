@@ -12,7 +12,7 @@ cmake ..
 make
 ./main
 ```
-
+ 
 ### Project File List
 ```cpp
 device_check.cpp  : check the index of mics
