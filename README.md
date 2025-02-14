@@ -1,9 +1,10 @@
 ## this is Sound-source-localization-using-TDOA
 
 ## execute the code 
-### 1. install the library in the "requirement.txt"
+#### 1. install the library in the "requirement.txt"
 
-### 2. execute the code (if you have error in cmake then change the CMakeLists.txt)
+
+#### 2. execute the code (if you have error in cmake then change the CMakeLists.txt)
 ```cpp
 cd build
 cmake ..
@@ -11,12 +12,25 @@ make
 ./main
 ```
 
-### code flow
+
+
+### Execution Flow
 ```cpp
-main -> process_audio (gcc_phat, fft -> caltegorize_value -> calculate_8_angles)  -> select_final_direction
+main  
+↓  
+process_audio  
+↓  
+gcc_phat, fft  
+↓  
+categorize_value  
+↓  
+calculate_8_angles  
+↓  
+select_final_direction  
 ```
 
-### code role
+
+### Module Descriptions
 ```cpp
 final/src/_process_audio.cpp          : 
 final/src/_gcc_phat.cpp               : calculate the TDOA 
