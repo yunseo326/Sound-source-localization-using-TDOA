@@ -208,7 +208,7 @@ int main(){
         plt::title("Input 3");
         plt::xlim(0, FRAMES_PER_BUFFER);   // x축 범위 설정
         plt::ylim(-0.5, 0.5);              // y축 범위 설정
-
+ 
         // 네 번째 마이크의 오디오 데이터를 그래프에 그리기
         plt::subplot(4, 1, 4);
         plt::plot(std::vector<float>(inputData4, inputData4 + FRAMES_PER_BUFFER));
