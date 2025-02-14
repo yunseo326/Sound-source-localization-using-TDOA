@@ -1,4 +1,8 @@
-## this is Sound-source-localization-using-TDOA
+## Sound-source-localization-using-TDOA
+This system utilizes a four-microphone array to detect the direction of a sound source. 
+By combining the TDOA method with the GCC-PHAT, it precisely measures time differences between signals. Multithreading and C++ are used to optimize real-time data processing, ensuring high accuracy and low latency even in noisy environments.  
+
+
 
 ## execute the code 
 #### 1. install the library in the "requirement.txt"
