@@ -6,7 +6,7 @@ sudo apt install cmake
 2. matplot
 https://github.com/lava/matplotlib-cpp
 change CMakeLists.txt
-
+ 
 3. pyaudio
 sudo apt update
 sudo apt install -y build-essential libasound2-dev libjack-jackd2-dev portaudio19-dev
